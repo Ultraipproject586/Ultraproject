@@ -778,7 +778,7 @@ def get_main_keyboard(user_id):
     keyboard = []
 
     # Common buttons for all authorized use
-    KeyboardButton("⚡ Attack Launch")])
+    keyboard.append([KeyboardButton("⚡ Attack Launch")])
     keyboard.append([KeyboardButton("🛑 Stop Attack"), KeyboardButton("📋 My Access")])
     keyboard.append([KeyboardButton("📊 Check Status"), KeyboardButton("📈 Attack History")])
 
